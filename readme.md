@@ -13,5 +13,5 @@ Data Structure used here is queue. Each counter is a seperate queue.
 
 **Time Complexity**
 
-This function used addition of students. It searches multiple queues and assigns student to each queue. Hence the time complexity should be of order O(n^2)
+This function used addition of students. It searches multiple queues and assigns student to each queue. Hence the time complexity should be of order $ O(n^2) $
 
