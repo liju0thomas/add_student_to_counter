@@ -113,6 +113,8 @@ class College:
 
 if __name__ == "__main__":
     sampleArray = open("inputPS08.txt", "r")
+    file = open("outputPS08.txt","w")# create output file
+    file.close()
     first_iteration = True
 
     for lineText in sampleArray:
@@ -145,6 +147,9 @@ if __name__ == "__main__":
             #calling isOpen function
 
             c.giveAdmissionTicket()
+
+
+    sampleArray.close()
 
 # 2 students in each counter and total 5 counters
 # c = College(3,5)
